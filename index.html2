@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ASHTVBD News | Global & Local Stories</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top-header">
+  <div class="top-bar">
+    <div class="logo-wrap">
+      <div class="logo-mark">N</div>
+      <div class="logo-text">
+        <span>ASHTVBD NEWS</span>
+        <small>Global · Bangladesh · Analysis</small>
+      </div>
+    </div>
+    <div class="top-right">
+      <div class="top-meta">
+        <span id="dateText"></span>
+        <span class="dot">•</span>
+        <span>Dhaka Time</span>
+      </div>
+      <div class="top-actions">
+        <button class="theme-toggle" id="themeToggle">
+          <span class="icon">🌙</span>
+          <span class="label">Mode</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <nav class="main-nav">
+    <button class="nav-toggle" id="navToggle">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="#">Bangladesh</a></li>
+      <li><a href="#">World</a></li>
+      <li><a href="#">Politics</a></li>
+      <li><a href="#">Business</a></li>
+      <li><a href="#">Tech</a></li>
+      <li><a href="#">Sports</a></li>
+      <li><a href="#">Entertainment</a></li>
+      <li><a href="#">Opinion</a></li>
+    </ul>
+  </nav>
+
+  <div class="breaking-bar">
+    <div class="breaking-label">Breaking</div>
+    <div class="breaking-ticker" id="breakingTicker">
+      <span>Govt announces new policy on digital payments in Bangladesh.</span>
+      <span>Heavy rain disrupts traffic in Dhaka; commuters face long delays.</span>
+      <span>Global markets react to major tech company earnings report.</span>
+      <span>New Android app by ASH TV Dev enters beta testing phase.</span>
+    </div>
+  </div>
+</header>
+
+<main class="page">
+  <section class="layout-main">
+    <div class="main-column">
+      <!-- Lead story -->
+      <article class="lead-story">
+        <a href="#" class="lead-image" aria-label="Lead story image"></a>
+        <div class="lead-content">
+          <span class="tag tag-world">World</span>
+          <h1 class="lead-title">
+            Major shift in global tech landscape as new regulations reshape the industry.
+          </h1>
+          <p class="lead-summary">
+            Governments and regulators are moving quickly to update rules for large technology platforms, aiming to
+            balance innovation, competition, and user protection in a rapidly changing digital environment.
+          </p>
+          <div class="meta">
+            <span>By ASHTVBD News Desk</span>
+            <span>·</span>
+            <span>Updated just now</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Top stories grid -->
+      <section class="section">
+        <h2 class="section-title">Top stories</h2>
+        <div class="grid grid-3">
+          <article class="story-card">
+            <span class="tag tag-bd">Bangladesh</span>
+            <h3><a href="#">Metro rail expansion plan aims to ease Dhaka congestion.</a></h3>
+            <p>
+              Transport authorities outline new routes and timelines as part of a long-term effort to reduce travel
+              time across the capital.
+            </p>
+          </article>
+
+          <article class="story-card">
+            <span class="tag tag-business">Business</span>
+            <h3><a href="#">Local startups attract global investors amid digital boom.</a></h3>
+            <p>
+              A growing ecosystem of founders, developers, and creators is drawing international attention and funding
+              to the region.
+            </p>
+          </article>
+
+          <article class="story-card">
+            <span class="tag tag-tech">Tech</span>
+            <h3><a href="#">Android developers adapt to new platform updates.</a></h3>
+            <p>
+              Changes in tools, libraries, and guidelines are reshaping how teams build, test, and deploy mobile apps.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Bangladesh focus -->
+      <section class="section">
+        <div class="section-header">
+          <h2 class="section-title">Bangladesh</h2>
+          <a href="#" class="section-link">View all</a>
+        </div>
+        <div class="grid grid-2">
+          <article class="story-card horizontal">
+            <div class="story-text">
+              <h3><a href="#">Digital services reshape daily life across major cities.</a></h3>
+              <p>
+                From bill payments to education, more services are moving online, changing how people interact with
+                institutions.
+              </p>
+              <div class="meta">
+                <span>Dhaka</span>
+                <span>·</span>
+                <span>Today</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="story-card horizontal">
+            <div class="story-text">
+              <h3><a href="#">Youth-led initiatives drive community innovation.</a></h3>
+              <p>
+                Students and young professionals are collaborating on local projects, blending technology with social
+                impact.
+              </p>
+              <div class="meta">
+                <span>Chattogram</span>
+                <span>·</span>
+                <span>Today</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <section class="section">
+        <h2 class="section-title">Trending</h2>
+        <ul class="list">
+          <li><a href="#">Analysis: How AI is changing regional newsrooms.</a></li>
+          <li><a href="#">Opinion: Why digital literacy matters more than ever.</a></li>
+          <li><a href="#">Feature: Inside the rise of indie app developers.</a></li>
+          <li><a href="#">Explainer: What new privacy rules mean for users.</a></li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">ASH TV Dev spotlight</h2>
+        <div class="spotlight">
+          <p>
+            ASHTVBD News is part of the broader ASH TV Dev ecosystem, highlighting stories at the intersection of
+            technology, media, and everyday life in Bangladesh and beyond.
+          </p>
+          <a href="#" class="spotlight-link">Learn more about ASH TV Dev</a>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Follow</h2>
+        <div class="social-row">
+          <button class="social-btn">YouTube</button>
+          <button class="social-btn">Facebook</button>
+          <button class="social-btn">X</button>
+        </div>
+      </section>
+    </aside>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-main">
+    <div class="footer-about">
+      <h3>ASHTVBD News</h3>
+      <p>
+        Independent, digital-first news experience curated by ASH TV Dev — focused on clarity, context, and credible
+        storytelling for a connected audience.
+      </p>
+    </div>
+    <div class="footer-links">
+      <div>
+        <h4>Sections</h4>
+        <a href="#">Bangladesh</a>
+        <a href="#">World</a>
+        <a href="#">Tech</a>
+        <a href="#">Sports</a>
+      </div>
+      <div>
+        <h4>About</h4>
+        <a href="#">About ASHTVBD News</a>
+        <a href="#">Contact</a>
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© <span id="year"></span> ASHTVBD News · An ASH TV Dev project.</span>
+    <span>Design inspired by global news networks.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
